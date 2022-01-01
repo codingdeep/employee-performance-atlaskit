@@ -1,8 +1,7 @@
 import React from 'react';
+import ElevateTimeline from '~src/components/ElevateTimeline/ElevateTimeline';
 
 const ElevateTimelineContainer: React.FC = () => {
-   return(
-       <h1>Hello Timeline</h1>
-   )
-}
+  return <ElevateTimeline />;
+};
 export default ElevateTimelineContainer;
