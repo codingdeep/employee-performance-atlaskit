@@ -11,11 +11,11 @@ interface Props {
   children: React.ReactNode;
 }
 
-const defaultThemes: Partial<ThemeState> = {
-  spacing: 'spacing',
-  // @ts-ignore
-  typography: 'typography',
-};
+// const defaultThemes: Partial<ThemeState> = {
+//   spacing: 'spacing',
+//   // @ts-ignore
+//   typography: 'typography',
+// };
 
 const getThemePreference = (): Partial<ThemeState> => {
   const savedThemePreference = window.localStorage.getItem('theme');

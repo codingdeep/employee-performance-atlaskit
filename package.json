@@ -12,13 +12,19 @@
     "unit:test": "NODE_OPTIONS=--max-old-space-size=4096 node  --expose-gc  --no-compilation-cache ./node_modules/.bin/jest   --maxWorkers=50% --config=./jest.config.js --silent --logHeapUsage"
   },
   "dependencies": {
+    "@atlaskit/atlassian-navigation": "^3.3.5",
     "@atlaskit/css-reset": "^6.7.1",
+    "@atlaskit/menu": "^2.1.11",
+    "@atlaskit/page-layout": "^3.1.3",
+    "@atlaskit/popup": "^1.14.0",
     "@atlaskit/primitives": "^5.1.2",
     "@atlaskit/theme": "^12.7.0",
     "@atlaskit/tokens": "^1.42.1",
+    "history": "^5.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-intl-next": "npm:react-intl@^5.18.1",
+    "react-resource-router": "^0.28.0",
     "react-use": "^17.5.0",
     "serve": "^14.2.1",
     "styled-components": "^6.1.8"

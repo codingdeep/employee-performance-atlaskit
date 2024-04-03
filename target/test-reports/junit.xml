@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="7.276">
-  <testsuite name="src/components/App" errors="0" failures="0" skipped="0" timestamp="2024-03-31T16:45:55" time="4.757" tests="1">
-    <testcase classname="src/components/App" name="should render component" time="0.04">
+<testsuites name="jest tests" tests="2" failures="0" errors="0" time="1.908">
+  <testsuite name="" errors="0" failures="0" skipped="0" timestamp="2024-04-03T04:24:58" time="1.495" tests="2">
+    <testcase classname="" name="should render the component successfully" time="0.063">
+    </testcase>
+    <testcase classname="" name="should call the root route on click home button" time="0.016">
     </testcase>
   </testsuite>
 </testsuites>

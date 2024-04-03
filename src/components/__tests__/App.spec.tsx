@@ -4,7 +4,9 @@ import App from "~src/components/App";
 
 describe("src/components/App",()=>{
     it('should render component', function () {
-       const {container}  = render(<App/>);
+       const {container}  = render(
+           <App/>
+       );
        expect(container).toBeInTheDocument();
     });
 });

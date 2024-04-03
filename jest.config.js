@@ -1,11 +1,11 @@
-/** @type {import('jest').Config} */
+/* @type {import('jest').Config} */
 module.exports = {
   roots: ['<rootDir>'],
   maxWorkers: 2,
   clearMocks: true,
   resetModules: true,
   collectCoverage: true,
-  testEnvironment: 'jsdom',
+  testEnvironment: './jest.FixJSDOMEnvironment.js',
   coverageProvider: 'v8',
   coverageDirectory: 'coverage',
   coverageReporters: ['json', 'lcov', 'text', 'text-summary'],

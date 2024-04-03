@@ -1,15 +1,20 @@
-import React, { useContext } from 'react';
+import React, { Suspense } from 'react';
+import { Router, createBrowserHistory, RouteComponent } from 'react-resource-router';
 import ThemeContextProvider from '~src/components/context/ThemeContext/ThemeContextProvider';
-import { Box } from '@atlaskit/primitives';
-import AnotherComponent from '~src/components/AnotherComponent';
-import { ThemeContext } from '~src/components/context/ThemeContext/ThemeContext';
+import { appRoutes } from '~src/appRoutes';
+import BasePage from '~src/components/common/BasePage/BasePage';
+const history = createBrowserHistory();
 
 const App: React.FC = () => {
-  const { theme } = useContext(ThemeContext);
   return (
     <ThemeContextProvider>
-      <Box>Current Theme: {theme.colorMode}</Box>
-      <AnotherComponent />
+      <Suspense fallback="Loading...">
+        <Router routes={appRoutes} history={history} plugins={[]}>
+          <BasePage>
+            <RouteComponent />
+          </BasePage>
+        </Router>
+      </Suspense>
     </ThemeContextProvider>
   );
 };
