@@ -15,6 +15,8 @@
     "@atlaskit/atlassian-navigation": "^3.3.5",
     "@atlaskit/css-reset": "^6.7.1",
     "@atlaskit/menu": "^2.1.11",
+    "@atlaskit/notification-indicator": "9.2.1",
+    "@atlaskit/page-header": "10.4.9",
     "@atlaskit/page-layout": "^3.1.3",
     "@atlaskit/popup": "^1.14.0",
     "@atlaskit/primitives": "^5.1.2",
@@ -25,7 +27,7 @@
     "react-dom": "^18.2.0",
     "react-intl-next": "npm:react-intl@^5.18.1",
     "react-resource-router": "^0.28.0",
-    "react-use": "^17.5.0",
+    "react-use": "17.5.0",
     "serve": "^14.2.1",
     "styled-components": "^6.1.8"
   },

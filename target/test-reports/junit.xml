@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="2" failures="0" errors="0" time="1.908">
-  <testsuite name="" errors="0" failures="0" skipped="0" timestamp="2024-04-03T04:24:58" time="1.495" tests="2">
-    <testcase classname="" name="should render the component successfully" time="0.063">
+<testsuites name="jest tests" tests="2" failures="0" errors="0" time="2.217">
+  <testsuite name="Page Grid Container" errors="0" failures="0" skipped="0" timestamp="2024-04-11T03:59:36" time="1.469" tests="2">
+    <testcase classname="Page Grid Container" name="should render the container without problem" time="0.063">
     </testcase>
-    <testcase classname="" name="should call the root route on click home button" time="0.016">
+    <testcase classname="Page Grid Container" name="should applies the correct grid structure" time="0.041">
     </testcase>
   </testsuite>
 </testsuites>
