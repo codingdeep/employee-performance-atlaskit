@@ -36,9 +36,6 @@ const Timeline: React.FC<Props> = ({ timeline }) => {
           </Flex>
         ))}
       </Flex>
-      <Flex justifyContent="space-around">Helo</Flex>
-      <Flex justifyContent="space-around">Helo</Flex>
-      <Flex justifyContent="space-around">Helo</Flex>
     </Flex>
   );
 };

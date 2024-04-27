@@ -18,5 +18,14 @@ const TimelineData: Array<ReviewCycleStageForTimeline> = [
     stageLabel: 'Sample Stage Label',
     startDate: new Date().toISOString(),
   },
+  {
+    id: '#2',
+    applicableFor: 'Abu Raihan',
+    hardEndDate: new Date().toISOString(),
+    reviewCycleId: '1',
+    softEndDate: new Date().toISOString(),
+    stageLabel: 'Sample Stage Label',
+    startDate: new Date().toISOString(),
+  },
 ];
 export default TimelineData;
